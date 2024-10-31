@@ -1,38 +1,49 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
+<html lang="vi"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Công Ty Thẻ Xanh</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background: linear-gradient(to right, #e0f7fa, #ffffff);
         }
         header {
             background-color: #1a6ce8;
             color: white;
-            padding: 10px 0;
+            padding: 20px 0;
             text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
         nav {
-            margin: 10px 0;
+            background-color: #666; /* Lighter grey background */
+            padding: 10px 0;
             text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
         nav a {
-            margin: 0 15px;
+            margin: 0 20px;
             text-decoration: none;
-            color: #1a6ce8;
+            color: #ffffff; /* White text */
+            padding: 10px 15px; 
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s, border 0.3s;
+        }
+        nav a:hover {
+            background-color: #888; /* Slightly lighter grey on hover */
+            border: 3px solid #1a6ce8; /* Thicker blue border on hover */
+            transform: scale(1.1); /* Slightly increase size on hover */
         }
         .tab {
             display: none;
             padding: 20px;
             background: white;
-            margin: 0 10px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
         }
         .tab.active {
             display: block;
@@ -41,10 +52,38 @@
             width: 30px;
             vertical-align: middle;
             margin-right: 10px;
+            transition: transform 0.3s;
         }
-        .links {
-            text-align: center;
+        .links img:hover {
+            transform: scale(1.2);
+        }
+        .contact-info {
             margin: 20px 0;
+            text-align: center;
+            font-size: 1.1em;
+        }
+        h2, h3 {
+            color: #1a6ce8;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #1a6ce8;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
         }
     </style>
 </head>
@@ -63,6 +102,11 @@
 
 <div id="home" class="tab active">
     <h2>Trang Chủ</h2>
+    <div class="contact-info">
+        <p>Liên hệ: (714) 270 1701</p>
+        <p>Email: <a href="mailto:immigrationhcc@gmail.com">immigrationhcc@gmail.com</a></p>
+        <p>Địa chỉ: 14180 Beach Blvd Suite 204, Westminster, CA 92683</p>
+    </div>
     <div class="links">
         <a href="https://youtube.com/@congtythexanh7770" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube"> YouTube
@@ -103,69 +147,38 @@
     <p>Diện thứ tư (F4): Anh chị em của công dân Hoa Kỳ: 65,000 visa cộng với số lượng không đủ yêu cầu cho ba ưu tiên trên.</p>
     <h3>Lịch Chiếu Khán Tháng 09/2024 và Tháng 10/2024:</h3>
     <table>
-        <tr>
-            <th>DIỆN</th>
-            <th>THÁNG 09/2024</th>
-            <th>THÁNG 10/2024</th>
-        </tr>
-        <tr>
-            <td>F1</td>
-            <td>THÁNG 10/22, 2015</td>
-            <td>THÁNG 10/22, 2015</td>
-        </tr>
-        <tr>
-            <td>F2A</td>
-            <td>THÁNG 11/15, 2021</td>
-            <td>THÁNG 11/22, 2021</td>
-        </tr>
-        <tr>
-            <td>F2B</td>
-            <td>THÁNG 05/01, 2016</td>
-            <td>THÁNG 05/01, 2016</td>
-        </tr>
-        <tr>
-            <td>F3</td>
-            <td>THÁNG 04/01, 2010</td>
-            <td>THÁNG 04/01, 2010</td>
-        </tr>
-        <tr>
-            <td>F4</td>
-            <td>THÁNG 08/01, 2007</td>
-            <td>THÁNG 08/01, 2007</td>
-        </tr>
-    </table>
-    <h3>Lịch Chuẩn Bị Giấy Tờ Cho NVC:</h3>
-    <table>
-        <tr>
-            <th>DIỆN</th>
-            <th>THÁNG 09/2024</th>
-            <th>THÁNG 10/2024</th>
-        </tr>
-        <tr>
-            <td>F1</td>
-            <td>THÁNG 09/01, 2017</td>
-            <td>THÁNG 09/01, 2017</td>
-        </tr>
-        <tr>
-            <td>F2A</td>
-            <td>THÁNG 06/15, 2024</td>
-            <td>THÁNG 07/15, 2024</td>
-        </tr>
-        <tr>
-            <td>F2B</td>
-            <td>THÁNG 01/01, 2017</td>
-            <td>THÁNG 01/01, 2017</td>
-        </tr>
-        <tr>
-            <td>F3</td>
-            <td>THÁNG 01/01, 2011</td>
-            <td>THÁNG 07/01, 2011</td>
-        </tr>
-        <tr>
-            <td>F4</td>
-            <td>THÁNG 03/01, 2008</td>
-            <td>THÁNG 03/01, 2008</td>
-        </tr>
+        <tbody>
+            <tr>
+                <th>DIỆN</th>
+                <th>THÁNG 09/2024</th>
+                <th>THÁNG 10/2024</th>
+            </tr>
+            <tr>
+                <td>F1</td>
+                <td>THÁNG 10/22, 2015</td>
+                <td>THÁNG 10/22, 2015</td>
+            </tr>
+            <tr>
+                <td>F2A</td>
+                <td>THÁNG 07/15, 2024</td>
+                <td>THÁNG 07/15, 2024</td>
+            </tr>
+            <tr>
+                <td>F2B</td>
+                <td>THÁNG 07/01, 2011</td>
+                <td>THÁNG 07/01, 2011</td>
+            </tr>
+            <tr>
+                <td>F3</td>
+                <td>THÁNG 01/01, 2011</td>
+                <td>THÁNG 07/01, 2011</td>
+            </tr>
+            <tr>
+                <td>F4</td>
+                <td>THÁNG 03/01, 2008</td>
+                <td>THÁNG 03/01, 2008</td>
+            </tr>
+        </tbody>
     </table>
 </div>
 
@@ -226,5 +239,4 @@
     }
 </script>
 
-</body>
-</html>
+</body></html>
